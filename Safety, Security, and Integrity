@@ -1,0 +1,27 @@
+Safety, Security, and Integrity
+
+The Automated Appointment Reminder System follows basic safety, security, and data integrity practices during development and testing.
+
+ 1. Data Privacy
+- Use sample appointment records during demonstrations and testing.
+- Avoid entering unnecessary personal or confidential information.
+- Do not expose private user information in screenshots or public repositories.
+
+2. Security Practices
+- Keep database credentials, API keys, passwords, and environment configuration files private.
+- Do not upload the Laravel `.env` file or other sensitive credentials to GitHub.
+- Allow only authorized users to access and manage system information.
+
+3. Data Integrity
+- Verify appointment details before saving or cancelling records.
+- Use test records when demonstrating system functions.
+- Avoid unauthorized modifications to stored appointment information.
+
+4. Honest Testing and Reporting
+- Report only functions that are implemented and tested.
+- Clearly identify simulated reminder delivery and failure scenarios.
+- Do not claim that actual SMS or email notifications were sent.
+- Identify unavailable frontend functions, including rescheduling and reminder-log viewing, as limitations of the current Week 13 version.
+
+5. System Limitations
+The current Week 13 version is an initial implementation. Some functions may require further development in future versions. Reminder delivery is simulated and does not yet represent actual external SMS or email integration.
